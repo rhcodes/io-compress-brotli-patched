@@ -1,0 +1,205 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.79.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 de518c9f6da8d89fa65cc4622cbc84479bcfc3c0 Brotli.xs
+SHA1 7b520961afe50cb100416b5b4eb21caa3832ad6a Changes
+SHA1 136b474b0b2ddd3006e1a438e932aecc7cc84546 MANIFEST
+SHA1 db38ed33997e2b8aa121ef5ada19b59f7868ca82 MANIFEST.SKIP
+SHA1 e82e8c32263a13a1c32d2113a47505afceff8f12 META.json
+SHA1 2486b4cbac09cd3c61bf8c3114fdc464bae9e3f8 META.yml
+SHA1 9d656e56f523a136ef359f087f2980acf7fdf038 Makefile.PL
+SHA1 3e4e1dd98f6b0212660186709eb3c05dd85eb5f6 README
+SHA1 37ba5d9eec597fb7b227fb7b232945672a9dc584 bin/bro-perl
+SHA1 c045813a6c514f2d30d60a07c6aaf3603850e608 brotli/LICENSE
+SHA1 c039acb5b79b84a78a8f19df6d2161fc7ceec14d brotli/Makefile
+SHA1 5b979f6ef01670b8a04b3086bfa43ebb5c7e5103 brotli/Makefile.am
+SHA1 7a56e4874597bcdd524378192131b36850df484e brotli/README
+SHA1 df9155ebb5d935bfe164a1b42f377108c6c3d317 brotli/README.md
+SHA1 0b33c02a148f1281902ce4b0c3372a62e22fda7f brotli/bootstrap
+SHA1 1ffe5743ee9d3758cf07c35628826551e4ef2129 brotli/c/common/constants.h
+SHA1 e6d5d380e75704ac8c58337b0d244d6b2272ed7a brotli/c/common/context.h
+SHA1 72b41051cb61a9281ba3c4414c289da50d9a7640 brotli/c/common/dictionary.bin
+SHA1 5e331b5058fc1c32e52f79d8a4b0a282c45da77e brotli/c/common/dictionary.bin.br
+SHA1 923b1b9de2193147ffdbdbe918be1c4474806d2f brotli/c/common/dictionary.c
+SHA1 5b3a62ecd683da2f97198dc2ebbbade8df3a94e3 brotli/c/common/dictionary.h
+SHA1 dcedd9c1f1f1927d3184d7bc8737504f2a9cf107 brotli/c/common/platform.h
+SHA1 c6860cb2bdc5cbe820584443e1e1336e7b2f586a brotli/c/common/transform.c
+SHA1 b09f9725b8430701ad1031b3d88293640ec6ecfb brotli/c/common/transform.h
+SHA1 01302ca017d0b6d463e4a8cad1a5cedfc8d254a3 brotli/c/common/version.h
+SHA1 95f6fc06f2a789cbe69b2d9ccc360faca90359f3 brotli/c/dec/bit_reader.c
+SHA1 1794ed56a5a8818c99509ddf5acfd552c12bf3d3 brotli/c/dec/bit_reader.h
+SHA1 3312f3434f7928ab81745e24878ffd56ce956c07 brotli/c/dec/decode.c
+SHA1 9d47fef71dd8f628a7cef4c9f8a9a68e83c9e6b1 brotli/c/dec/huffman.c
+SHA1 1a5f0517151faa30a2d76a777afa5512c1351c51 brotli/c/dec/huffman.h
+SHA1 710e137f116d7d9403a73a412460b4c61c9a46e9 brotli/c/dec/prefix.h
+SHA1 7b55b810b35dea8c2cb672beaaad7768cec902dc brotli/c/dec/state.c
+SHA1 c4ac5e8f6481919140e3c8af6e2ac40a11761477 brotli/c/dec/state.h
+SHA1 005c4e1170f86612dd0d26f97087761a69226970 brotli/c/enc/backward_references.c
+SHA1 94b038c18b99426e5061956ff3067fe0e36d0514 brotli/c/enc/backward_references.h
+SHA1 0b96076d0678a9f9818ff3fffd2593fa0c0d0ec5 brotli/c/enc/backward_references_hq.c
+SHA1 88258b456051a8699e0e6faca298438f93ed5e09 brotli/c/enc/backward_references_hq.h
+SHA1 42d53fd4a819cdc9cf709a1b50f63233c18704f1 brotli/c/enc/backward_references_inc.h
+SHA1 d1bab9736c1a8af24632713a8520084f016f96fb brotli/c/enc/bit_cost.c
+SHA1 e41b2ad261afa338b3f313d681a0f69503a4caa8 brotli/c/enc/bit_cost.h
+SHA1 e64b1611bf01fc3165118c6a25e7bfb4279f1400 brotli/c/enc/bit_cost_inc.h
+SHA1 d19fc16885348d3cf1738209d06552c3d6f3beb5 brotli/c/enc/block_encoder_inc.h
+SHA1 941215d6bd5774b2dc2283f3c4ebf56da944b1b0 brotli/c/enc/block_splitter.c
+SHA1 924f2fa85349ffbbe0979c36307f70d05f71fa94 brotli/c/enc/block_splitter.h
+SHA1 5961e359039017ba237a5ac3fcba055c1b2de415 brotli/c/enc/block_splitter_inc.h
+SHA1 b73ebd0775deaaad2dd720f0169b5c7d987465d6 brotli/c/enc/brotli_bit_stream.c
+SHA1 40bd15c3e053479452a039cd7f98408c9eae9051 brotli/c/enc/brotli_bit_stream.h
+SHA1 573d3cf857d571fee646f11aab5bfc706a8882a7 brotli/c/enc/cluster.c
+SHA1 1a7203020cc7ab139bb9709a5cbe190a6688b1b8 brotli/c/enc/cluster.h
+SHA1 d944fd197c3b768c64b3e086e83d4784bfeb09bb brotli/c/enc/cluster_inc.h
+SHA1 6ad5f07c6c1c1f06de65d5869a1a59b5e508ca94 brotli/c/enc/command.h
+SHA1 67797bc37311d003fb3b0d71b28b0daab22c92df brotli/c/enc/compress_fragment.c
+SHA1 f3fb456917aecd52ccef8e16d980bd9fb97d4c03 brotli/c/enc/compress_fragment.h
+SHA1 e037adfcc87cfc8d60403cce531f5beb003f454d brotli/c/enc/compress_fragment_two_pass.c
+SHA1 51cb2bf41ecf6b956e66e8654fdcbfef5c530e33 brotli/c/enc/compress_fragment_two_pass.h
+SHA1 503f79f188426f76be1e3193786e1ac4575598a8 brotli/c/enc/dictionary_hash.c
+SHA1 ebbb5595cb7467a2959398bf0951d47e01d5bc94 brotli/c/enc/dictionary_hash.h
+SHA1 f1d952691a47242ce34fbcc253e762a4b9627470 brotli/c/enc/encode.c
+SHA1 289ed48787e656f5fff425be30fac4cda994203c brotli/c/enc/encoder_dict.c
+SHA1 b386f4335926dda4c22936f8a44a99ccf6ac403b brotli/c/enc/encoder_dict.h
+SHA1 27d099428f7e00839d49e4eb46c9a6c730fb5edb brotli/c/enc/entropy_encode.c
+SHA1 67b66fc113681e06cd873c487f9d532eb8645e3d brotli/c/enc/entropy_encode.h
+SHA1 dd85a80b36a73d955d2bedc19b01f8f8510ce8c4 brotli/c/enc/entropy_encode_static.h
+SHA1 8a7373c0603ae978d7ac60e7463784d1caceffe1 brotli/c/enc/fast_log.h
+SHA1 262e3bfeaebeb15017ed8b6f8499c3ff40184273 brotli/c/enc/find_match_length.h
+SHA1 b1949b92fe39baf3437fba2a244af939573877f8 brotli/c/enc/hash.h
+SHA1 3c625bc45a55ccbb1d8052e399f9aec78cc7830c brotli/c/enc/hash_forgetful_chain_inc.h
+SHA1 85596362b76e08f37e81b0153a631ab628991aad brotli/c/enc/hash_longest_match64_inc.h
+SHA1 8c9e4043bafdd3118a02a145aa1d977e923a4b29 brotli/c/enc/hash_longest_match_inc.h
+SHA1 506b9df028f0e6c5d32cd30cd1246513aa1c17b8 brotli/c/enc/hash_longest_match_quickly_inc.h
+SHA1 85eff52dcabeb960b8e36cfab5e1921c91af2906 brotli/c/enc/hash_to_binary_tree_inc.h
+SHA1 6d15c28472934e966ab96efcb51b62aa188ff581 brotli/c/enc/histogram.c
+SHA1 2573c5f96bc533df1bc306e2ffa3c342fb400e95 brotli/c/enc/histogram.h
+SHA1 620666c9bf8ae48b8651a01f29f258a1a8de4012 brotli/c/enc/histogram_inc.h
+SHA1 ca147e345fe2ef3cedc736a3f599d5067c4b1844 brotli/c/enc/literal_cost.c
+SHA1 dd84b0c1ac1afae4c2740e433e57aa19408893b4 brotli/c/enc/literal_cost.h
+SHA1 b34df29567e3484b0e5ac0c3cf6b4216c2243373 brotli/c/enc/memory.c
+SHA1 3b1555bf70683780db2063ba9f2fa3f497f4eed9 brotli/c/enc/memory.h
+SHA1 29f22c60f48eeefdfdcd9d68a61dbff01f038226 brotli/c/enc/metablock.c
+SHA1 e6543afc94d54b21cd894ddb63671970fc9afc45 brotli/c/enc/metablock.h
+SHA1 fd8192ff2520da5079e055f418365ae1b840a72a brotli/c/enc/metablock_inc.h
+SHA1 3f55963935f7b40596dd522d46e23dde6ee8ab8c brotli/c/enc/params.h
+SHA1 7bcd90c0abdfa1cd3b1462a70da6840848363953 brotli/c/enc/prefix.h
+SHA1 b522e095dab022f6396b533cbe44f64df0ce15fa brotli/c/enc/quality.h
+SHA1 2af3da2d599d30d8fad5b40feaeac02ed9f61638 brotli/c/enc/ringbuffer.h
+SHA1 051e028d2ac37853ce716b4036138fa92599583c brotli/c/enc/static_dict.c
+SHA1 ab0ff2a14bb1eb6dbb05494a77bd2ab9e37fa77b brotli/c/enc/static_dict.h
+SHA1 5c9bf3cf2e0b4976f100658da545eed1ba19036d brotli/c/enc/static_dict_lut.h
+SHA1 de6408355dd66ea3ae9d80338bb0562bd2a9f9c4 brotli/c/enc/utf8_util.c
+SHA1 16fb339f67d16814b45a5894ca17908890f38256 brotli/c/enc/utf8_util.h
+SHA1 f0ffdee4dd3411c810c3eb62c9d707b8647e8713 brotli/c/enc/write_bits.h
+SHA1 4faa33d749a598bb29927b7ebf8e936a6239e610 brotli/c/include/brotli/decode.h
+SHA1 47e6b2af4fd789b6d43770986885326a0eb4a90f brotli/c/include/brotli/encode.h
+SHA1 ef5b988f9b2316f69d70af64bcc757ece7e9ff1b brotli/c/include/brotli/port.h
+SHA1 5f4bf34c537fba7f7cd4a3663ae2d3f97cff8e6e brotli/c/include/brotli/types.h
+SHA1 a78ea41c01f5560973909f5e3539ae1aa1d62ac4 brotli/configure
+SHA1 499b9dd39a7404cddb207984ba0a48a86a92fb26 brotli/configure.ac
+SHA1 d759dccabd946dde3bbe6a9a1e3ed4e5850a2ddd brotli/fetch-spec/shared-brotli-fetch-spec.txt
+SHA1 be4c760d734cc61cdc86a0e2870323de893f5e8d brotli/tests/compatibility_test.sh
+SHA1 681cbf10cb6316ba4cb4eb1117ac968419255421 brotli/tests/roundtrip_test.sh
+SHA1 51ce38b1589cb99882d26f9c3f62c05496d4719a brotli/tests/run-compatibility-test.cmake
+SHA1 51c5776f223960b37abc0eff042573689bffc208 brotli/tests/run-roundtrip-test.cmake
+SHA1 3ade4410dd53b5bfa1886e1750f2838304e1f57a brotli/tests/testdata/10x10y
+SHA1 a2e391ea3bb6a191097d5e875de8c879b4cbb986 brotli/tests/testdata/10x10y.compressed
+SHA1 dac23c1366dd53b62d93fcc4b63633e6d52f1c4c brotli/tests/testdata/64x
+SHA1 d77ac0928205312d6ab40968adef0aa4bbe9f2a0 brotli/tests/testdata/64x.compressed
+SHA1 37a087d23c8709e97aa45ece662faf3d07006a58 brotli/tests/testdata/alice29.txt
+SHA1 77c0987e313e53ca55ad5f06ae9d7f27a54fb87e brotli/tests/testdata/alice29.txt.compressed
+SHA1 fb7db2d0c1ba0a1be26fe1892a7f83bf01153770 brotli/tests/testdata/asyoulik.txt
+SHA1 c65bdeef939f7d1a5c551fcad921fccb5f24ba6c brotli/tests/testdata/asyoulik.txt.compressed
+SHA1 a1749fc580b92d99f43770aab062742dcf7e199e brotli/tests/testdata/backward65536
+SHA1 8011cf894b15f8ab731259731a24ce00a56af81d brotli/tests/testdata/backward65536.compressed
+SHA1 8711594d41773971d9d31b4bd0d0a93926bec011 brotli/tests/testdata/bb.binast
+SHA1 77c0987e313e53ca55ad5f06ae9d7f27a54fb87e brotli/tests/testdata/compressed_file
+SHA1 4e433c75078379eb779401dce2d42966c2a1c696 brotli/tests/testdata/compressed_file.compressed
+SHA1 524386b6daf08409947c58bb259adb2698047b89 brotli/tests/testdata/compressed_repeated
+SHA1 fc868f66eb32749e95a1f2c521bd57d783ad3a24 brotli/tests/testdata/compressed_repeated.compressed
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 brotli/tests/testdata/empty
+SHA1 2d0134ed3b9de132c720fe697b532b4c232ff9fe brotli/tests/testdata/empty.compressed
+SHA1 2d0134ed3b9de132c720fe697b532b4c232ff9fe brotli/tests/testdata/empty.compressed.00
+SHA1 254f3a1ee196cb72bca0f2ea7ecbf038cefeb43e brotli/tests/testdata/empty.compressed.01
+SHA1 77980281826c3a9e1d3457f3748e84fa1bcf907c brotli/tests/testdata/empty.compressed.02
+SHA1 dc0b415a554f8fdff5807216c7df559a14c404cb brotli/tests/testdata/empty.compressed.03
+SHA1 dc4c764c7cbe774de4f20f7f9db009df0c41afa7 brotli/tests/testdata/empty.compressed.04
+SHA1 6ff899efd99c021f64abd04201c6c2c727307c47 brotli/tests/testdata/empty.compressed.05
+SHA1 a25a5bf406fa01624e2f25e4d88121c4d891068c brotli/tests/testdata/empty.compressed.06
+SHA1 0c7a3f484953b0b459dc76c90f6673b7df0b6ce6 brotli/tests/testdata/empty.compressed.07
+SHA1 77de68daecd823babbb58edb1c8e14d7106e83bb brotli/tests/testdata/empty.compressed.08
+SHA1 ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4 brotli/tests/testdata/empty.compressed.09
+SHA1 902ba3cda1883801594b6e1b452790cc53948fda brotli/tests/testdata/empty.compressed.10
+SHA1 0ade7c2cf97f75d009975f4d720d1fa6c19f4897 brotli/tests/testdata/empty.compressed.11
+SHA1 2d14ab97cc3dc294c51c0d6814f4ea45f4b4e312 brotli/tests/testdata/empty.compressed.12
+SHA1 21606782c65e44cac7afbb90977d8b6f82140e76 brotli/tests/testdata/empty.compressed.13
+SHA1 5bab61eb53176449e25c2c82f172b82cb13ffb9d brotli/tests/testdata/empty.compressed.14
+SHA1 ebdc2288a14298f5f7adf08e069b39fc42cbd909 brotli/tests/testdata/empty.compressed.15
+SHA1 fd0eef69d3205575fd126601e11e8b03b8d83b33 brotli/tests/testdata/empty.compressed.16
+SHA1 4c580f0dd15e19b18ffe7ece930643d9c841b3e8 brotli/tests/testdata/empty.compressed.17
+SHA1 321801fa81d9c267a34f8c56d5487766e38ec325 brotli/tests/testdata/empty.compressed.18
+SHA1 77331951a4e24cd6d6315aa41b2cbdda882f685d brotli/tests/testdata/lcet10.txt
+SHA1 2e7ec57e1c1ca5fa2b0ca0225394cd47d6b6cd9c brotli/tests/testdata/lcet10.txt.compressed
+SHA1 a8bb9d8841e36bd04c452eb31743148769fe7fe8 brotli/tests/testdata/mapsdatazrh
+SHA1 84146c2ccc81d186717dbe45114df7d2c6d96119 brotli/tests/testdata/mapsdatazrh.compressed
+SHA1 ec15e3ff67ba83cb177ed97b7867fee7d8b4e78f brotli/tests/testdata/monkey
+SHA1 b78ca6e2b37556823aef54979ce14f46c491d465 brotli/tests/testdata/monkey.compressed
+SHA1 4575958b534bbe6e9d461b0b390300f54a5210cd brotli/tests/testdata/plrabn12.txt
+SHA1 8e62c6fed07e29e116ca533e4d7f9673b2c1926c brotli/tests/testdata/plrabn12.txt.compressed
+SHA1 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12 brotli/tests/testdata/quickfox
+SHA1 76c26ed5e8a8f1df5670b552634187ddfc990b1c brotli/tests/testdata/quickfox.compressed
+SHA1 c84056803dc7eec388abbd36d479a06ede571671 brotli/tests/testdata/quickfox_repeated
+SHA1 a95acdfb127b680d91e12d66e44d115accc379e3 brotli/tests/testdata/quickfox_repeated.compressed
+SHA1 40b52465bcb7deab270d02898b57fffbb97718ce brotli/tests/testdata/random_chunks
+SHA1 0c298092d2a95a2eb3400308a0c078a055ad85a5 brotli/tests/testdata/random_org_10k.bin
+SHA1 4047799da3835c1a73c5c5c094335c2e2ad2a1eb brotli/tests/testdata/random_org_10k.bin.compressed
+SHA1 b1aabd8898239662c1963db113f3ed9796f82d31 brotli/tests/testdata/ukkonooa
+SHA1 fbaae46c6af4aa7e3e912445c000bbfaea242402 brotli/tests/testdata/ukkonooa.compressed
+SHA1 c032adc1ff629c9b66f22749ad667e6beadf144b brotli/tests/testdata/x
+SHA1 3998c61029a789f626eede2ef6c3cc0d42fc51ed brotli/tests/testdata/x.compressed
+SHA1 8de7e66534549e1cab4bcfa3261c742d44648d2f brotli/tests/testdata/x.compressed.00
+SHA1 cec87e95258d7cd7f886b085c22a63b37aebd3d2 brotli/tests/testdata/x.compressed.01
+SHA1 42a4905b6bee8a10fa8af80c3684c7eb4875fc51 brotli/tests/testdata/x.compressed.02
+SHA1 0b2da9f5c711b2e1ab3fd7bd746d94fc0f86d579 brotli/tests/testdata/x.compressed.03
+SHA1 735257c757150678b0ed75503820cd0a2451ae82 brotli/tests/testdata/xyzzy
+SHA1 c7c86e10c7f0b9794ae591aa0a17618aff1bedec brotli/tests/testdata/xyzzy.compressed
+SHA1 2e000fa7e85759c7f4c254d4d9c33ef481e459a7 brotli/tests/testdata/zeros
+SHA1 9c71a8e6726f1619776920c23ba0cee46be944c4 brotli/tests/testdata/zeros.compressed
+SHA1 103b01b8deede50effca3011d8031a43cdfe5db0 lib/IO/Compress/Brotli.pm
+SHA1 ee557bbb5134335d8feafb1d7edc9099e8b61982 lib/IO/Uncompress/Brotli.pm
+SHA1 26ca5f967b9fb4335e0df9327fbdaf1c5095c55b ppport.h
+SHA1 e4159957ec4dca423789d0cc299d9b717b80431f t/00-load.t
+SHA1 259dd7ec71205c59553ec6e686fa292cda6b44a6 t/01-uncompress.t
+SHA1 1cc419a17554d6dcc79f39eee7ee0132e15c2e21 t/02-roundtrip.t
+SHA1 2a299dd97dba90dcd8ad585923b573d9a77c77a3 typemap
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAEBCgAuFiEELM3sUPUHqnKs2Tozjt1KysMIYJAFAlsAdBUQHG1hcml1c0Bp
+ZXZhbC5ybwAKCRCO3UrKwwhgkNk1EADVmo11sbROrJIiZ00487UnL4iG4ZnMJ8me
+g4bPQ34NAUrgzU1u/jqGPW+vEUqgZGSIHCKvRqQpH9Lz5WxIYWwYTGsc7+hBKgvQ
+ZvIkr/AYi0PKRk43G1jSlt/UCSpxSxZ4Ka6mZ0OSb+QrmubUEHVfyGEiY4kBh42C
+tPsBQhNUVp9CNGl6GInvgFnGklp7+U/4TcVPwPLjxsGu7DKBGMQDEVZ7iaMMiqQm
+Jx8+GclS4zfSvWQGlKBuVZuHfTjyavMQ7WK3Zlh12YMrdKhbNl9v1hgED+lCZJ/V
+3ek1zEWmExwIx6OFUOyDB9tv90BaLb/qQAIuKn0WjMpI8LEtoDAkID7aawYwU9g5
+0JflBqFdHFeHwsFb5zmxHolKydqmfjnNXFZ/n2E4tCgsBZIQBDU0RHIsYym2zIkw
+Zp0H/0Gt5b2/UI3rcJNxwXPI5rFTt9IAO8LznASkhoJZYrnGvtHdtPZvU64zdIf+
+f8Xg/W3xwHXB4TzA/IXGqKjSTGwQqA1K+a4SBk6l7tMwv7ZDPKk3wNu4yzVOLIKl
+JEuhrtgMu3kOtYniA7WD+wigbwOoji4lpxmSDu5mXPTvaiQ6+qtLzD7j8uWaEcR+
+VAA2sg4RUL+GS7KlWGbao05txIhBaMpkBvTsOyptC71KZNTkH3NagMhOBkcErlof
+DkeDyx4TFQ==
+=jY+f
+-----END PGP SIGNATURE-----
